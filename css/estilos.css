@@ -1,0 +1,23 @@
+body {background-color: #3fc267;}
+
+ol {color: red;
+font-size: 17px;
+font-weight: bold;}
+
+ul {color: blue;
+font-size: 20px;
+font: small-caps 120% serif;}
+
+h1 {text-align: center;
+text-decoration: underline;
+font-style: oblique;}
+
+h2 {text-decoration: underline;
+text-align: justify;
+font: oblique bold 160% cursive;}
+
+img {width: 500px;
+height: 500px}
+
+.texto {font-size: 20px;
+font-style: oblique;}
