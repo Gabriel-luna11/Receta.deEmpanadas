@@ -1,23 +1,41 @@
-body {background-color: #3fc267;}
+body {background-color: #3fc267;
+    background-image: url(../imagenes/fondo.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    }
 
-ol {color: red;
+    nav {font-size: 20px;
+        background-color: #51bf46}
+
+ol {color: white;
 font-size: 17px;
-font-weight: bold;}
+font-weight: bold;
+border: 10px;
+background-color: grey}
 
-ul {color: blue;
+ul {color: white;
 font-size: 20px;
-font: small-caps 120% serif;}
+font: small-caps 120% serif;
+background-color: grey;
+}
 
 h1 {text-align: center;
 text-decoration: underline;
-font-style: oblique;}
+font-style: oblique;
+background-color: #46bfb0}
 
 h2 {text-decoration: underline;
 text-align: justify;
-font: oblique bold 160% cursive;}
+font: oblique bold 160% cursive;
+background-color: #51bf46}
 
-img {width: 500px;
-height: 500px}
+.empanada {width: 500px;
+          height: 500px}
 
-.texto {font-size: 20px;
-font-style: oblique;}
+.whatsapp {margin-left: 390px}
+
+.instagram {margin-left: 50px}
+
+.texto {font-size: 25px;
+font-style: oblique;
+background-color: #bf4646}
