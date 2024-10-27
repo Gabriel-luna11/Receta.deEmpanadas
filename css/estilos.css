@@ -1,25 +1,29 @@
 body {background-color: #3fc267;
     background-image: url(../imagenes/fondo.jpg);
     background-repeat: repeat;
-    background-attachment: fixed;
-    }
+    background-attachment: fixed;}
 
-nav {font-size: 20px;
-        background-color: #51bf46}
 
-header   {display: flex;
+header  {display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-around;
-        background-color: white;
-        margin: 20px}
+        background-color: #1c9752;
+        margin: 40px;
+        padding: 20px;
+        border-radius: 20px}
+
+.emp {border-radius: 15px}
+.emp:hover {width: 250px}
+
 
 footer  {display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-around;
-        background-color: white;
-        margin: 20px}
+        background-color: #1c9752;
+        margin: 20px;
+        border-radius: 20px}
 
 ol {color: white;
 font-size: 17px;
@@ -35,6 +39,7 @@ background-color: grey;
 
 h1 {text-align: center;
 text-decoration: underline;
+color: white;
 font-style: oblique;}
 
 h2 {text-decoration: underline;
@@ -42,21 +47,95 @@ text-align: justify;
 font: oblique bold 160% cursive;
 background-color: #51bf46}
 
-.empanada {width: 500px;
-          height: 500px;
-          display: flex;
-          align-items: center;}
+.empanada   {width: 40vw}
 
-.logo {padding: 10px}
 
-.log {display: flex;
-      align-items: center;
-      background-color: #1c9752;
+
+.log  {background-color: white;
       padding: 10px;
-      border-radius: 10px}
-
+      border-radius: 15px}
 
 
 .texto {font-size: 25px;
 font-style: oblique;
 background-color: #bf4646}
+
+.desarrollador {font-size: 30px;
+                color: white}
+
+.links {display: flex;
+       align-items: center;
+       justify-content: space-around;}
+
+
+.link1 {background-color: #1c9752;
+        color: white;
+        padding: 15px 30px;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: 2s;
+        margin-left: 10px}
+
+.link1:hover {background-color: #1b590b;
+              transform: translateY(-3px);}
+
+
+.link2 {background-color: #1c9752;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: 2s;
+  margin-left: 10px}
+
+.link2:hover {background-color: #1b590b;
+              transform: translateY(-3px);}
+
+
+.link3 {background-color: #1c9752;
+        color: white;
+        padding: 15px 30px;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: 2s;
+        margin-left: 10px}
+
+.link3:hover {background-color: #1b590b;
+              transform: translateY(-3px);}
+
+
+.link4 {background-color: #1c9752;
+        color: white;
+        padding: 15px 30px;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: 2s;
+        margin-left: 10px}
+
+.link4:hover {background-color: #1b590b;
+              transform: translateY(-3px);}
+
+
+.link5 {background-color: #1c9752;
+        color: white;
+        padding: 15px 30px;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: 2s;
+        margin-left: 10px;}
+
+.link5:hover {background-color: #1b590b;
+              transform: translateY(-3px);}
+
+
+.link6 {margin: 50%;
+        background-color: #1c9752;
+        color: white;
+        padding: 15px 30px;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: 2s;
+        margin-left: 10px;}
+
+.link6:hover {background-color: #1b590b;
+              transform: translateY(-3px);}
