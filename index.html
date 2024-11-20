@@ -9,12 +9,14 @@
     <title>Receta de Empanadas</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./css/estilos.css">
+    <script> alert("Bienvenido a donde encontrarás las mejores recetas del mundo")
+    </script>
   </head>
   <body>
 
-    <header>
+    <header id="header">
       <img class="emp" width="200px" src="./imagenes/logo.jpg" alt="logo">
-      <h1>Receta de empanadas Santiagueñas</h1>
+      <h1 class="titulo">Receta de empanadas Santiagueñas</h1>
       <div class="logos">
         <a  href="https://api.whatsapp.com/send?phone=1121783280&"><img src="./imagenes/whatsapp.jpg" alt="Comunicate al 11 2178-3280" height="65px" width="65px"></a>
         <a  href="https://www.instagram.com"><img src="./imagenes/instagram.jpg" alt="Entra a instagram" height="65px" width="65px"></a>
@@ -22,6 +24,12 @@
         <a  href="https://www.facebook.com/"><img src="./imagenes/facebook.jpg" alt="Entra a Facebook" height="65px" width="65px"></a>
       </div>
     </header>
+
+<br>
+
+    <div>
+      <button onclick="inclusive()" >Modo oscuro</button>
+    </div>
 
 <br>
 
@@ -43,13 +51,13 @@
 
 <br><br>
 
-<p class="texto">La empanada es una masa rellena con carnes, verduras o frutas cocida al horno o frita en aceite o grasa. Su nombre proviene del castellano empanar, cuya primera acepción es «encerrar algo en masa o pan para cocerlo en el horno.</p>
+<p class="texto" id="p">La empanada es una masa rellena con carnes, verduras o frutas cocida al horno o frita en aceite o grasa. Su nombre proviene del castellano empanar, cuya primera acepción es «encerrar algo en masa o pan para cocerlo en el horno.</p>
 
- <main>
+ <main id="main">
   <h2>Ingredientes para una docena de empanadas </h2>
  </main>
 
-  <section>
+  <section id="section">
     <ul>
     <li>12 tapas para empanadas</li>
     <li>1/2 kg. de carne picada</li>
@@ -64,11 +72,11 @@
     </ul>
   </section>
 
-<main>
+<main id="mainn">
     <h2>Preparación</h2>
 </main>
 
-<section>
+<section id="sectionn">
   <ol>
     <li>En una olla con aceite caliente agregar la cebolla y el morrón. Dejar dorar unos minutos y cuando estén a medio cocer (cebolla transparente), agregar el ajo y un poco de sal y pimienta.</li>
     <br>
@@ -94,7 +102,7 @@
 <br><br>
 </aside>
 
-<section>
+<aside>
  <div class="container">
  <div class="row">
  <div class="tarjeta1 col-lg-3 col-md-6 col-sm-12">
@@ -141,9 +149,9 @@
  </div>
  </div>
 
-</section>
+</aside>
 
-<footer>
+<footer id="footer">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105151.48164504199!2d-58.81870625640239!3d-34.553965521081714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbd7f8ed7ed6f%3A0xa141f13ddb761d51!2sB1663%20San%20Miguel%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1729028956484!5m2!1ses!2sar" width="350" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 <div class="log">
   <a  href="https://api.whatsapp.com/send?phone=1121783280&"><img src="./imagenes/whatsapp.jpg" alt="Comunicate al 11 2178-3280" height="65px" width="65px"</a>
@@ -151,8 +159,11 @@
   <a  href="https://www.youtube.com/"><img src="./imagenes/youtube.png" alt="Entra a Youtube" height="65px" width="65px"</a>
   <a  href="https://www.facebook.com/"><img src="./imagenes/facebook.jpg" alt="Entra a Facebook" height="65px" width="65px"></a>
 </div>
-<p class="desarrollador">Luna Koval Gabriel Alexander</p>
+<div>
+<button class="info" onclick="info()">Créditos</button>
+</div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="./js/javascript.js"></script>
   </body>
 </html>

@@ -4,7 +4,7 @@ body {background-color: #3fc267;
     background-attachment: fixed;}
 
 @media (max-width: 500px) {
- body {background-image: url(../imagenes/fondocelu.jpg); }} 
+ body {background-image: url(../imagenes/fondocelu.jpg); }}
 
 
 header  {display: flex;
@@ -16,6 +16,9 @@ header  {display: flex;
         padding: 20px;
         border-radius: 20px}
 
+.titulo {color: white;
+         text-decoration: underline;}
+
 @media (max-width: 767px) {
   .logos { display:none; }}
 
@@ -24,26 +27,16 @@ header  {display: flex;
 .emp {border-radius: 15px}
 .emp:hover {width: 250px}
 
-h1 {text-align: center;
+main {text-align: center;
 text-decoration: underline;
 color: white;
-font-style: oblique;}
+background-color: #1c9752}
 
-h2 {text-decoration: underline;
-text-align: justify;
-font: oblique bold 160% cursive;
-background-color: #51bf46}
-
-ol {color: white;
+section {color: white;
 font-size: 17px;
 font-weight: bold;
 border: 10px;
 background-color: grey}
-
-ul {color: white;
-font-size: 20px;
-font: small-caps 120% serif;
-background-color: grey;}
 
 @media (min-width: 767px) {
   .empanada2 {display:none; }}
@@ -60,6 +53,8 @@ footer  {display: flex;
         background-color: #1c9752;
         margin: 20px;
         border-radius:20px}
+
+.info {font-size: 25px;}
 
 @media (min-width: 992px) {
   .mapa {display: none;}}
