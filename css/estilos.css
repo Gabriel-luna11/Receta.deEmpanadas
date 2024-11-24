@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
 body {background-color: #3fc267;
     background-image: url(../imagenes/fondo.jpg);
     background-repeat: repeat;
@@ -35,8 +37,20 @@ header  {display: flex;
     text-decoration: none;
     margin-left: 10px}
 
+.main { font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;}
+
 .titulo {color: white;
-         text-decoration: underline;}
+         text-decoration: underline;
+         font-family: "Ranga", cursive;
+         font-weight: 400;
+         font-style: normal;}
+
+.titulo {font-family: "Ranga", cursive;
+         font-weight: 700;
+         font-style: normal;}
 
 @media (max-width: 767px) {
   .logos { display:none; }}
@@ -53,7 +67,6 @@ background-color: #1c9752}
 
 section {color: white;
 font-size: 17px;
-font-weight: bold;
 border: 10px;
 background-color: grey}
 
