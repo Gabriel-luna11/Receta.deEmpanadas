@@ -10,8 +10,9 @@ function inclusive() {document.body.style.backgroundColor= "black"
                        document.getElementById("section").style.backgroundColor = "#373e38"
                        document.getElementById("sectionn").style.backgroundColor = "#373e38"
                        document.getElementById("footer").style.backgroundColor = "#373e38"
+                       document.getElementByID("nav").style.backgroundcolor = "#373e38"
                       }
 
-                      function info() {
+                      function información() {
                         alert("Diseñado por Gabriel Luna - Correo Electrónico: lunakovalgabriel@gmail.com");
                       }

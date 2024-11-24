@@ -16,6 +16,25 @@ header  {display: flex;
         padding: 20px;
         border-radius: 20px}
 
+.nav {text-decoration: overline;
+      color: white;
+      display: flex;
+       align-items: center;
+       justify-content: space-around;
+       background-color: white;
+       padding: 20px;
+       }
+
+.volv {position: fixed;
+    top: 80%;
+    right: 4%;
+    background-color: #c82a3d;
+    color: white;
+    padding: 15px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-left: 10px}
+
 .titulo {color: white;
          text-decoration: underline;}
 
